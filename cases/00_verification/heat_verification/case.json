@@ -1,0 +1,16 @@
+{
+  "category": "00_verification",
+  "description": "Transient heat-conduction verification against the analytical reference.",
+  "mode": "verification",
+  "model": "analytical-reference",
+  "name": "heat_verification",
+  "origin": "independent-verification",
+  "public_id": "verification::heat_verification",
+  "result_source": "results/verification/heat_verification",
+  "result_status": "manuscript-result",
+  "run_command": "python -m jax_tpff.verify_heat",
+  "tags": [
+    "verification",
+    "manuscript"
+  ]
+}

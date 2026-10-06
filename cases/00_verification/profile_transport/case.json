@@ -1,0 +1,16 @@
+{
+  "category": "00_verification",
+  "description": "Stationary AT2 profile and diffuse-layer heat-flux convergence.",
+  "mode": "verification",
+  "model": "analytical-reference",
+  "name": "profile_transport",
+  "origin": "independent-verification",
+  "public_id": "verification::profile_transport",
+  "result_source": "results/verification/profile_transport",
+  "result_status": "manuscript-result",
+  "run_command": "python -m jax_tpff.verify_profile_transport",
+  "tags": [
+    "verification",
+    "manuscript"
+  ]
+}

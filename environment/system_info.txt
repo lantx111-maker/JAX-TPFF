@@ -1,0 +1,12 @@
+Reference platform: macOS 27.0, arm64 (Apple silicon)
+Python: 3.12.14
+JAX: 0.11.1
+jaxlib: 0.11.1
+NumPy: 2.5.2
+SciPy: 1.18.1
+Matplotlib: 3.11.1
+PyAMG: 5.3.0
+meshio: 5.3.5
+JAX-FEM source snapshot: bundled under third_party/jax-fem
+ParaView: used to export the supplied field images from the VTU files
+Randomness: none; every retained calculation is deterministic

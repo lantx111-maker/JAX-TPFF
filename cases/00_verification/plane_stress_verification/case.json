@@ -1,0 +1,16 @@
+{
+  "category": "00_verification",
+  "description": "Plane-stress constitutive and finite-element verification.",
+  "mode": "verification",
+  "model": "analytical-reference",
+  "name": "plane_stress_verification",
+  "origin": "independent-verification",
+  "public_id": "verification::plane_stress_verification",
+  "result_source": "results/verification/plane_stress_verification",
+  "result_status": "manuscript-result",
+  "run_command": "python -m jax_tpff.verify_plane_stress",
+  "tags": [
+    "verification",
+    "manuscript"
+  ]
+}

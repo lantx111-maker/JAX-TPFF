@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "JAX-TPFF: phase-field thermal-fracture calculations"
+type: software
+authors:
+  - family-names: Lan
+    given-names: Tianxiang
+  - family-names: Ni
+    given-names: Zhiyang
+  - family-names: Jiang
+    given-names: Yaodong
+  - family-names: Wu
+    given-names: Peidong
+  - family-names: Wei
+    given-names: Yueguang
+preferred-citation:
+  type: article
+  title: "Thermal resistance of phase-field cracks in ceramic thermal shock"
+  authors:
+    - family-names: Lan
+      given-names: Tianxiang
+    - family-names: Ni
+      given-names: Zhiyang
+    - family-names: Jiang
+      given-names: Yaodong
+    - family-names: Wu
+      given-names: Peidong
+    - family-names: Wei
+      given-names: Yueguang
+  journal: "International Journal of Heat and Mass Transfer"

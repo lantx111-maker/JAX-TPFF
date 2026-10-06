@@ -1,0 +1,19 @@
+{
+  "Nx": 200,
+  "Ny": 80,
+  "Nz": 1,
+  "category": "01_manuscript_thermal_shock",
+  "description": "Matched thermal-shock calculation used in the manuscript.",
+  "mode": "quench",
+  "model": "AT2",
+  "name": "TS_200x080_n080_k0",
+  "origin": "manuscript-study",
+  "public_id": "manuscript::TS_200x080_n080_k0",
+  "result_source": "results/manuscript/TS_200x080_n080_k0",
+  "result_status": "manuscript-result",
+  "run_command": "python -m jax_tpff.run_manuscript TS_200x080_n080_k0 --force",
+  "tags": [
+    "manuscript",
+    "T2"
+  ]
+}
